@@ -1,0 +1,37 @@
+/* SKU CoE ITE - ParkSooYoung */
+/* Grade 4 , Semester 2 , Chapter 6 , Number 2 */
+
+body
+{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+form
+{
+    background: pink;
+}
+
+h1
+{
+    text-align: center;
+}
+
+body label, p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+span
+{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer
+{
+    background: red;
+    border-radius: 10px;
+}

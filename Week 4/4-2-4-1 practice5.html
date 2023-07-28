@@ -1,0 +1,70 @@
+<!-- SKU CoE ITE - ParkSooYoung -->
+<!-- Grade 4 , Semester 2 , Chapter 4 , Number 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼이 있는 입력 폼</title>
+</head>
+<body>
+    <h3>버튼을 만들자</h3>
+    <hr>
+    <form name="form" action="http://localhost/form.php" method="get">
+        search : <input type="text" size="10" value="">
+        <input type="button" value="Q1">
+        <button type="button">Q2</button>
+        <br>
+        submit : <input type="submit" value="전송1">
+        <button type="submit">전송2</button>
+        <br>
+        reset : <input type="reset" value="리셋1">
+        <button type="reset">리셋2</button>
+        <br>
+        image : <input type="image" src="./../Media/D.Va.ico" alt="image button">
+        <button type="button">
+            <img src="./../Media/D.Va.ico" alt="image button">
+        </button>
+    </form>
+    <br>
+    <h3>응원하는 팀을 선택<!-- <label> 이용 --></h3>
+    <hr>
+    <label>
+        <input type="radio" name="geng" value="1">
+        Gen.G <img src="./../Media/geng.svg" width="200" height="200">
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="t1" value="2" checked>
+        T1 <img src="./../Media/t1.png" width="350" height="200">
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="dk" value="3">
+        DK <img src="./../Media/dk.svg" width="200" height="200">
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="drx" value="4">
+        DRX <img src="./../Media/drx.svg" width="200" height="200">
+    </label>
+    <br>
+    <h3>회원 정보를 입력해주세요.</h3>
+    <hr>
+    <form name="form" action="http://localhost/form.php" method="get">
+        E-Mail : <input type="email" placeholder="id@host">
+        <br>
+        HomePage : <input type="url" placeholder="http://">
+        <br>
+        PhoneNumber : <input type="tel" placeholder="010-1234-5678">
+        <input type="submit" value="확인">
+        <br>
+        <br>
+        <hr>
+        검색어 : <input type="search" placeholder="검색어">
+        <input type="button" value="검색">
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!-- SKU CoE ITE - 20170910 ParkSooYoung -->
+<!-- Grade 4 , Semester 2 , Chapter 6 , Number 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 목록을 가진 텍스트 입력</title>
+    <link rel="stylesheet" type="text/css" href="homework1.css">
+</head>
+<body>
+    <h3>2022 월즈 챔피언십 우승팀은?</h3>
+    <hr>
+    <form>
+        응원하는 팀은? : <input type="text" list="teams">
+        <br>
+        <datalist id="teams">
+            <option value="T1">
+            <option value="GEN.G">
+            <option value="DK">
+        </datalist>
+        우승할 것 같은 팀은? : <input type="text" list="what">
+        <br>
+        <datalist id="what">
+            <option value="T1">
+            <option value="JDG">
+            <option value="G2">
+        </datalist>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <header>
+		<h1>승부의 신</h1>
+		2022 월즈 챔피언십에서 어떤 팀이 우승하게 될까요?
+		<hr>
+	</header>
+	<form>
+		LCK
+		<label><input type="radio" name="LCK" value="1">젠지</label>
+		<label><input type="radio" name="LCK" value="2">티원</label>
+		<label><input type="radio" name="LCK" value="3">담원기아</label>
+		<label><input type="radio" name="LCK" value="4">디알엑스</label>
+		<br>
+        <br>
+		LPL
+		<label><input type="radio" name="LPL" value="5">징동 인텔</label>
+		<label><input type="radio" name="LPL" value="6">탑 이스포츠</label>
+        <label><input type="radio" name="LPL" value="7">에드워드 게이밍 하이칸</label>
+        <label><input type="radio" name="LPL" value="8">로얄 네버 기브업</label>
+		<br>
+        <br>
+		T1 선수
+		<select name="player">
+			<option value="9">페이커</option>
+			<option value="10">케리아</option>
+			<option value="11">구마유시</option>
+			<option value="12">오너</option>
+            <option value="13">제우스</option>
+		</select>
+		<br>
+        <br>
+		페이커의 우승 스킨은?
+		<label><input type="checkbox" value="14">아리</label>
+		<label><input type="checkbox" value="15">르블랑</label>
+		<label><input type="checkbox" value="16">아지르</label>
+		<label><input type="checkbox" value="17">신드라</label>
+        <br>
+        <br>
+		응원의 한마디
+		<textarea cols="50" rows="10" placeholder="응원 글을 남겨주세요!"></textarea>
+	</form>
+</body>
+</html>
